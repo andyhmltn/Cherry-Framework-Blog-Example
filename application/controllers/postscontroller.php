@@ -74,7 +74,6 @@ class PostsController extends Controller {
 
 	function view($id = NULL) {
 		$post = $this->Post->find($id);
-		var_dump($post);
 		if($post) {
 			$this->set('post', $post);
 			$this->set('tags', $this->Post->relationship('tags', $id));
