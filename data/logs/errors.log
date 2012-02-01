@@ -1,17 +1,1 @@
-***Logs cleared 2012-02-01 16:54:43 via command line ***
-2012-02-01 17:00:37 (::1) - [CLASS] => Class not found BlogController in 'blog/'
-2012-02-01 17:02:42 (::1) - [CLASS] => Class not found AdminController in 'admin/base-css.html'
-2012-02-01 17:04:15 (::1) - [CLASS] => Class not found AdminController in 'admin/signup'
-2012-02-01 17:04:23 (::1) - [CLASS] => Class not found LoginController in 'login'
-2012-02-01 17:21:07 (::1) - [CLASS] => Class not found Chrome-extension:Controller in 'chrome-extension:/bmagokdooijbeehmkpknfglimnifench/googleChrome.js'
-2012-02-01 17:47:52 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:47:53 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:47:53 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:47:53 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:48:02 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:48:02 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:48:03 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 17:48:03 (::1) - [MYSQL] => Unknown column 'RAND' in 'order clause' in '/'
-2012-02-01 18:33:06 (::1) - [CLASS] => Class not found AdminController in 'admin/index.html'
-2012-02-01 18:49:24 (::1) - [CLASS] => Class not found AddController in 'add'
-2012-02-01 18:53:07 (::1) - [CLASS] => Class not found View3Controller in 'view3'
+***Logs cleared 2012-02-01 21:56:45 via command line ***
