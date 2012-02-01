@@ -178,7 +178,7 @@ function readURL() {
 			$action = substr($action, 1);
 		}
 		array_shift($urlArray);
-		$arguments = escapeString($urlArray);
+		$arguments = $urlArray;
 	} else {
 		$controller = DEFAULT_CONTROLLER;
 		$action = DEFAULT_ACTION;
@@ -308,8 +308,8 @@ function __autoload($class) {
  * 
  **/
 
-$log =& new Log();
-$validate =& new Validator();
+$log = new Log();
+$validate = new Validator();
 
 /**
  * Runs some of the above functions required to
