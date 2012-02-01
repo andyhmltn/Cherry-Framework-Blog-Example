@@ -2318,3 +2318,18 @@
 [01-Feb-2012 19:13:00] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2520 bytes) in /Applications/MAMP/htdocs/blog/library/SQLframe.class.php on line 218
 [01-Feb-2012 19:13:00] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2520 bytes) in /Applications/MAMP/htdocs/blog/library/SQLframe.class.php on line 218
 [01-Feb-2012 19:13:01] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 2520 bytes) in /Applications/MAMP/htdocs/blog/library/SQLframe.class.php on line 218
+[01-Feb-2012 19:32:35] PHP Notice:  Undefined index:  errors in /Applications/MAMP/htdocs/blog/application/controllers/userscontroller.php on line 45
+[01-Feb-2012 21:50:02] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 18
+[01-Feb-2012 21:50:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:51:21] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 18
+[01-Feb-2012 21:51:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:51:44] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 18
+[01-Feb-2012 21:51:44] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:51:56] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 18
+[01-Feb-2012 21:51:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:52:06] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 18
+[01-Feb-2012 21:52:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:52:52] PHP Notice:  Trying to get property of non-object in /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php on line 19
+[01-Feb-2012 21:52:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:54:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234
+[01-Feb-2012 21:54:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/blog/application/controllers/tagscontroller.php:18) in /Applications/MAMP/htdocs/blog/library/system.php on line 234

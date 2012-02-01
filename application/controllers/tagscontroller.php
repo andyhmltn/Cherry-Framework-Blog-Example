@@ -13,8 +13,7 @@ class TagsController extends Controller {
 		if(isset($_POST['name'])) {
 			extract($_POST);
 			
-			if($this->Tag->exists("name = '$name'")) {
-				$exists = $this->Tag->find("name = '$name'");
+			if($exists = $this->Tag->find("name = '$name'")) {
 				$id = $exists->id;
 
 				if($this->Tag->HABTexists('posts', $id, $post_id)) {
