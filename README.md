@@ -24,5 +24,4 @@ Currently left to do
 Links
 -------
 
-*[Andy Hamilton](http://www.github.com/andyhmltn)
 *[Cherry Framework](http://www.github.com/andyhmltn/Cherry-Framework)
