@@ -1,11 +1,17 @@
 Cherry Framework - Blog
 =============
 
-`This is a very light PHP MVC framework that I built for personal use to speed up client projects and 
+"This is a very light PHP MVC framework that I built for personal use to speed up client projects and 
 take advantage of the MVC pattern without going overboard. The framework uses a model system that lets
-you execute SQL with an active record like syntax.`
+you execute SQL with an active record like syntax."
 
 In order to show the basics of the framework I decided to create this simple blog application.
+
+How to use
+=============
+
+- Just create a database with the file provided in `/data/db/`
+- Edit the config file `/config/config.php`
 
 Currently left to do
 ------------
