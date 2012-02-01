@@ -220,13 +220,9 @@ class SQLFrame {
 	
 
 	/**
-	 * Used for finding values.
-	 * $Post->find(1) //Returns the post with the id 1
-	 * $Post->find('1') //Same as above. ''s don't matter.
-	 * $Post->find('id > 5') //Finds all rows with an id over 5
-	 * $Post->find("title = 'Hello world!'" array('order' => 'date ASC')) //Returns the post with the title 'Hello world!' Orders by date.
+	 * Finds a random value
 	 *
-	 * @package Find()
+	 * @package findRandom()
 	 * 
 	 **/
 
@@ -246,10 +242,16 @@ class SQLFrame {
 	
 	
 	function find() {
+		echo 'test';
 		$_args = func_get_args();
 		if(func_num_args() == 1 && preg_match('/^[0-9]*$/', $_args[0])) {
 			$query = "SELECT * FROM $this->_table WHERE id = '$_args[0]'";
-			return $this->query($query, TRUE);
+			$result = $this->query($query, TRUE);
+			if(count((array) $result) > 0) {
+				return $this->query($query, TRUE);
+			} else {
+				return FALSE;	
+			}
 		}
 		
 		$conditions = array();
@@ -276,14 +278,19 @@ class SQLFrame {
 			}
 			$i++;
 		}
+
 		
 		$query .= $temp;
 		if(!isset($argsExist)) {
 			$args = array();
 		}
 		$query = $this->sortArgsAndAppend($args, $query);
-
-		return $this->query($query, $single);
+		$result = $this->query($query, $single);
+		if(count((array) $result) > 0) {
+			return $this->query($query, $single);
+		} else {
+			return FALSE;	
+		}
 	}
 	
 	/**

@@ -30,7 +30,7 @@ class PostsController extends Controller {
 
 			$validate->validate_length($title, 4, 'Please increase the title length');
 			$validate->validate_length($content, 1, 'Please enter some content');
-			
+
 			$date = date('l jS \of F Y h:i:s A');
 			$uid = $_SESSION['id'];
 
@@ -73,7 +73,9 @@ class PostsController extends Controller {
 	}
 
 	function view($id = NULL) {
-		if($post = $this->Post->find($id)) {
+		$post = $this->Post->find($id);
+		var_dump($post);
+		if($post) {
 			$this->set('post', $post);
 			$this->set('tags', $this->Post->relationship('tags', $id));
 			$userObject = new User();

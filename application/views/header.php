@@ -16,7 +16,7 @@
           <a class="brand" href="/blog/">Blog</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class="<?php echo $test; ?>">
+              <li class="">
                 <a href="/blog/">View all posts</a>
               </li>
               <?php if(!User::isLoggedIn()) { ?>
